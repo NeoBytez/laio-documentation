@@ -1,7 +1,3 @@
-# Homepage
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
 ## Code Annotation Examples
 
 ### Codeblocks
@@ -12,24 +8,51 @@ Some `code` goes here.
 
 A plain codeblock:
 
+``` csharp
+/Test
+//Test
+///Test
+a/*test*/a
+if(this) {return null;}
+Console.WriteLine("Fenced code blocks ftw!");
 ```
-Some code here
-def myfunction()
-// some comment
+
+``` { .csharp .copy }
+public string[] GetInput()
+{
+    string[] returnValue = new string[input.Length];
+    for (int i = 0; i < input.Length; i++)
+    {
+        returnValue[i] = input[i].Value;
+    }
+    return returnValue;
+}
 ```
 
 #### Code for a specific language
 
 Some more code with the `py` at the start:
 
-``` py
+``` csharp
+public string[] GetInput()
+{
+    string[] returnValue = new string[input.Length];
+    for (int i = 0; i < input.Length; i++)
+    {
+        returnValue[i] = input[i].Value;
+    }
+    return returnValue;
+}
+```
+
+``` csharp
 import tensorflow as tf
 def whatever()
 ```
 
 #### With a title
 
-``` py title="bubble_sort.py"
+``` csharp title="bubble_sort.py"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
@@ -39,7 +62,7 @@ def bubble_sort(items):
 
 #### With line numbers
 
-``` py linenums="1"
+``` csharp linenums="1"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
@@ -49,20 +72,10 @@ def bubble_sort(items):
 
 #### Highlighting lines
 
-``` py hl_lines="2 3"
+``` csharp hl_lines="2 3"
 def bubble_sort(items):
     for i in range(len(items)):
         for j in range(len(items) - 1 - i):
             if items[j] > items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
-
-## Icons and Emojs
-
-:smile: 
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }

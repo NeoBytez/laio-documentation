@@ -1,41 +1,54 @@
 #typeset for icons on navigation
 
 site_name: Laio Documentation
+
 theme:
   name: material
-  custom_dir: 'mkdocs_windmill/'
   features: 
    # - toc.follow
     - search.suggest
     - navigation.top
-    - search.highlight 
+    - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
     - navigation.expand
     - navigation.path
     - navigation.prune
-  static_templates: [404.html]
-  search_index_only: true
-  include_search_page: true
-
-plugins:
-  - search
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: indigo
+      accent: light blue
 
 markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: true
   - pymdownx.highlight:
-      linenums_style: pymdownx-inline
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
   - pymdownx.superfences
-  
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 extra:
-  article_nav_top: false
-  article_nav_bottom: false
-  history_buttons: false
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/razorrules
