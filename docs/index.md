@@ -8,7 +8,7 @@ Some `code` goes here.
 
 A plain codeblock:
 
-``` csharp
+``` cs
 /Test
 //Test
 ///Test
@@ -17,7 +17,9 @@ if(this) {return null;}
 Console.WriteLine("Fenced code blocks ftw!");
 ```
 
-``` { .csharp .copy }
+Test
+
+```  csharp
 public string[] GetInput()
 {
     string[] returnValue = new string[input.Length];
@@ -33,7 +35,7 @@ public string[] GetInput()
 
 Some more code with the `py` at the start:
 
-``` csharp
+``` cs
 public string[] GetInput()
 {
     string[] returnValue = new string[input.Length];

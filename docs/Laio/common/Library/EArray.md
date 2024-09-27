@@ -31,4 +31,3 @@ To get a value from EArray, simply pass the enum value as an int into the index 
 int myValue = _eArray[(int)CustomEnum.EnumVal1];
 ```
 
-![image](/../../img/Samples/EArray.png)
