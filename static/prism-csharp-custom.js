@@ -20,12 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
     //======================================== Class ========================================//
 
     const unityTypesPattern = {
-      pattern: /\b(EArray|Weights|Transform|GameObject|Rigidbody|MonoBehaviour|SerializeField|ArgumentException|Enum)\b/,
+      pattern: /\b(EArray|Weights|Transform|GameObject|CustomEnum|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
       alias: 'class-name'
     };
 
     // Insert before both 'class-name' and 'constructor-invocation' 
     Prism.languages.insertBefore('csharp', 'class-name', {
+      'unity-type-class': unityTypesPattern
+    });
+
+    // Insert before both 'class-name' and 'constructor-invocation' 
+    Prism.languages.insertBefore('csharp', 'attribute', {
       'unity-type-class': unityTypesPattern
     });
 

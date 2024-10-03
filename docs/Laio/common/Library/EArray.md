@@ -1,8 +1,21 @@
 # EArray
 
-## Description
+## Overview
 
-The EArray object allows you to create an array of data mapped to an enum. Supports any data type and enums.
+The EArray object allows you to create an array of data mapped to an enum. Supports any data type and enums. 
+
+## Restrictions
+
+The only restriction to this, is you cannot set the value of the enums, as it must be cast to an int.
+``` csharp
+public enum CustomEnum : int
+{
+    EnumVal1,
+    EnumVal2,
+    // This will error
+    EnumVal3 = 10,
+}
+```
 
 ## Examples
 
@@ -22,12 +35,12 @@ public enum CustomEnum
 Declaration
 
 ``` cs
-[SerializeField] private EArray<CustomEnum, int> _myEArray;
+[SerializeField] private EArray<CustomEnum, int> _myEArray = new EArray<CustomEnum, int>();
 ```
 
 To get a value from EArray, simply pass the enum value as an int into the index of the array.
 
 ``` cs
-int myValue = _eArray[(int)CustomEnum.EnumVal1];
+int myValue = _myEArray[(int)CustomEnum.EnumVal1];
 ```
 
