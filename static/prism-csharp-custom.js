@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //======================================== Class ========================================//
 
     const unityTypesPattern = {
-      pattern: /\b(EArray|Weights|Transform|GameObject|CustomEnum|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
+      pattern: /\b(EArray|Weights|Graphics|NativeArray|Transform|GameObject|CustomEnum|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
       alias: 'class-name'
     };
 

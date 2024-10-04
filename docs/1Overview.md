@@ -9,11 +9,13 @@ hide_table_of_contents: true
 
 This Unity package aims to provide commonly used tools, methods and systems to speed up the development process.
 
-Has many different types that can drasically speed up development, such as [Stamina](/), [EArray](/), [Stat](/), [ObjectPool](/) along with different systems, such as [Saving](/), [SceneLoading](/), [Script Templates](/) and more!
+Has many different types that can drasically speed up development, such as [Stamina](/), [EArray](/), [Stat](/), [ObjectPool](/) along with different systems, such as [Saving](/), [SceneLoading](/), [Script Templates](/LaioEditor/TemplateEditor/) and more!
 
 If you are ready to install the package, check out the [Quick Start](/QuickStart) guide.
 
 ## Samples:
+
+All demos will be in the unity universal render pipeline. 
 
 ### [Bullet Solver](/Samples/BulletSolver)
 

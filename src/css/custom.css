@@ -11,7 +11,6 @@
   padding: 0 var(--ifm-pre-padding);
   border-left: 3px solid #ff000080;
 }
-
 .token.plain {
   color: #9CDCF6 !important; /* Use your preferred color */
   font-weight: normal !important;

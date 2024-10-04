@@ -18,6 +18,20 @@ last_update:
   author: custom author name
 ---
 
+### Warnings
+
+:::warning
+Warning!
+:::
+<div style={{backgroundColor: 'tomato', padding: '1rem', textAlign: 'top'}}><img src="/img/ErrorIcon.png" alt="Error icon" style={{height:50, width:50}}/>Try and change the background color to `tomato`.</div>
+:::danger Experimental CommonMark support
+Danger
+:::
+
+:::note
+You have to use rather than the Markdown triple-backtick, because the latter will ship out any of its content as-is, but you want to interpolate the imported text here.
+:::
+
 ### Code Block
 
 ```csharp title="/src/components/HelloCodeTitle.cs"
