@@ -24,5 +24,5 @@ export default function prismIncludeLanguages(PrismObject) {
     require('@site/src/components/prism-myLang');
   
     console.log("prismIncludeLanguages");
-    delete globalThis.Prism;
+    //delete globalThis.Prism;
   };

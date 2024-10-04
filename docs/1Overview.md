@@ -2,7 +2,6 @@
 title: Overview
 slug: /
 description: Overview
-hide_table_of_contents: true
 ---
 
 ## Laio: Logan's All in One

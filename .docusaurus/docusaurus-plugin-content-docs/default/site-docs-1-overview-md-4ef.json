@@ -13,8 +13,7 @@
   "frontMatter": {
     "title": "Overview",
     "slug": "/",
-    "description": "Overview",
-    "hide_table_of_contents": true
+    "description": "Overview"
   },
   "sidebar": "tutorialSidebar",
   "next": {
