@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Static/Extensions",
+  "title": "Extensions",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Static/Extensions.md",
+  "sourceDirName": "Laio/common/Static",
+  "slug": "/Laio/common/Static/Extensions",
+  "permalink": "/Laio/common/Static/Extensions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SceneSaving",
+    "permalink": "/Laio/common/Saving/SceneSaving"
+  },
+  "next": {
+    "title": "GizmoDrawer",
+    "permalink": "/Laio/common/Static/GizmoDrawer"
+  }
+}

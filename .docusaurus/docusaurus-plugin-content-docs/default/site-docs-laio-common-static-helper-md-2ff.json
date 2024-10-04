@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Static/Helper",
+  "title": "Helper",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Static/Helper.md",
+  "sourceDirName": "Laio/common/Static",
+  "slug": "/Laio/common/Static/Helper",
+  "permalink": "/Laio/common/Static/Helper",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GizmoDrawer",
+    "permalink": "/Laio/common/Static/GizmoDrawer"
+  },
+  "next": {
+    "title": "Laio Math",
+    "permalink": "/Laio/common/Static/LaioMath"
+  }
+}

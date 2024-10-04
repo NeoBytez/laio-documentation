@@ -1,0 +1,23 @@
+{
+  "id": "LaioEditor/Common/ToastContent",
+  "title": "Toast Content",
+  "description": "Contains all of the data related to a toast which can be passed to Toast.cs to show. This toast allows you to give multiple inputs, such as textfields, along with multiple buttons. ToastContent requires at a minimum 1 button.",
+  "source": "@site/docs/LaioEditor/Common/ToastContent.md",
+  "sourceDirName": "LaioEditor/Common",
+  "slug": "/LaioEditor/Common/ToastContent",
+  "permalink": "/LaioEditor/Common/ToastContent",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Toast",
+    "permalink": "/LaioEditor/Common/Toast"
+  },
+  "next": {
+    "title": "Template Editor",
+    "permalink": "/LaioEditor/TemplateEditor/"
+  }
+}

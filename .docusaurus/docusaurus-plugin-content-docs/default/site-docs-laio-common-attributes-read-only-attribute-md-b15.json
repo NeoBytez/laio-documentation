@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Attributes/ReadOnlyAttribute",
+  "title": "Readonly Attribute",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Attributes/ReadOnlyAttribute.md",
+  "sourceDirName": "Laio/common/Attributes",
+  "slug": "/Laio/common/Attributes/ReadOnlyAttribute",
+  "permalink": "/Laio/common/Attributes/ReadOnlyAttribute",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conditional Hide Attribute",
+    "permalink": "/Laio/common/Attributes/ConditionalHideAttribute"
+  },
+  "next": {
+    "title": "EArray",
+    "permalink": "/Laio/common/Library/EArray"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1Home",
+  "title": "Overview",
+  "description": "Overview",
+  "source": "@site/docs/1Home.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Overview",
+    "more_data": [
+      "Can be provided",
+      {
+        "as": "objects",
+        "or": "arrays"
+      }
+    ],
+    "slug": "/",
+    "description": "Overview",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "QuickStart",
+    "permalink": "/2QuickStart"
+  }
+}

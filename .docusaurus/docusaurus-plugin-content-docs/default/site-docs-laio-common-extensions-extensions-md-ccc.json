@@ -1,0 +1,24 @@
+{
+  "id": "Laio/common/Extensions/Extensions",
+  "title": "Extensions",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Extensions/Extensions.md",
+  "sourceDirName": "Laio/common/Extensions",
+  "slug": "/Laio/common/Extensions/",
+  "permalink": "/docs/Laio/common/Extensions/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Laio/common/Extensions/Extensions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Readonly Attribute",
+    "permalink": "/docs/Laio/common/Attributes/ReadOnlyAttribute"
+  },
+  "next": {
+    "title": "GizmoDrawer",
+    "permalink": "/docs/Laio/common/Extensions/GizmoDrawer"
+  }
+}

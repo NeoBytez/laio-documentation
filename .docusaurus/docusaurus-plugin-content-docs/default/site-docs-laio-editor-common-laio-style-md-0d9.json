@@ -1,0 +1,23 @@
+{
+  "id": "LaioEditor/Common/LaioStyle",
+  "title": "Laio Style",
+  "description": "Overview",
+  "source": "@site/docs/LaioEditor/Common/LaioStyle.md",
+  "sourceDirName": "LaioEditor/Common",
+  "slug": "/LaioEditor/Common/LaioStyle",
+  "permalink": "/LaioEditor/Common/LaioStyle",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ImageScroller",
+    "permalink": "/Laio/common/UI/ImageScroller"
+  },
+  "next": {
+    "title": "Toast",
+    "permalink": "/LaioEditor/Common/Toast"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Static/GizmoDrawer",
+  "title": "GizmoDrawer",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Static/GizmoDrawer.md",
+  "sourceDirName": "Laio/common/Static",
+  "slug": "/Laio/common/Static/GizmoDrawer",
+  "permalink": "/Laio/common/Static/GizmoDrawer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Extensions",
+    "permalink": "/Laio/common/Static/Extensions"
+  },
+  "next": {
+    "title": "Helper",
+    "permalink": "/Laio/common/Static/Helper"
+  }
+}

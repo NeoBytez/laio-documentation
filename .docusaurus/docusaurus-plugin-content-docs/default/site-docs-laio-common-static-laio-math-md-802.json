@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Static/LaioMath",
+  "title": "Laio Math",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Static/LaioMath.md",
+  "sourceDirName": "Laio/common/Static",
+  "slug": "/Laio/common/Static/LaioMath",
+  "permalink": "/Laio/common/Static/LaioMath",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Helper",
+    "permalink": "/Laio/common/Static/Helper"
+  },
+  "next": {
+    "title": "ImageScroller",
+    "permalink": "/Laio/common/UI/ImageScroller"
+  }
+}

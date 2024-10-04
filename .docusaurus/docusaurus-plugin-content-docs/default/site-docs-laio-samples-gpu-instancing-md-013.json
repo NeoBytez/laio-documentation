@@ -1,0 +1,24 @@
+{
+  "id": "LaioSamples/GPUInstancing",
+  "title": "GPUInstancing",
+  "description": "",
+  "source": "@site/docs/LaioSamples/GPUInstancing.md",
+  "sourceDirName": "LaioSamples",
+  "slug": "/LaioSamples/GPUInstancing",
+  "permalink": "/docs/LaioSamples/GPUInstancing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/LaioSamples/GPUInstancing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BulletSolver",
+    "permalink": "/docs/LaioSamples/BulletSolver"
+  },
+  "next": {
+    "title": "My Doc Title",
+    "permalink": "/docs/MDFeatures"
+  }
+}

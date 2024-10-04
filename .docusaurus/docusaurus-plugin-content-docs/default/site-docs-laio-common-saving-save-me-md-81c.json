@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Saving/SaveMe",
+  "title": "Save Me",
+  "description": "Overview",
+  "source": "@site/docs/Laio/common/Saving/SaveMe.md",
+  "sourceDirName": "Laio/common/Saving",
+  "slug": "/Laio/common/Saving/SaveMe",
+  "permalink": "/Laio/common/Saving/SaveMe",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Saving",
+    "permalink": "/Laio/common/Saving/"
+  },
+  "next": {
+    "title": "SceneSaving",
+    "permalink": "/Laio/common/Saving/SceneSaving"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/UI/ImageScroller",
+  "title": "ImageScroller",
+  "description": "",
+  "source": "@site/docs/Laio/common/UI/ImageScroller.md",
+  "sourceDirName": "Laio/common/UI",
+  "slug": "/Laio/common/UI/ImageScroller",
+  "permalink": "/Laio/common/UI/ImageScroller",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Laio Math",
+    "permalink": "/Laio/common/Static/LaioMath"
+  },
+  "next": {
+    "title": "Laio Style",
+    "permalink": "/LaioEditor/Common/LaioStyle"
+  }
+}

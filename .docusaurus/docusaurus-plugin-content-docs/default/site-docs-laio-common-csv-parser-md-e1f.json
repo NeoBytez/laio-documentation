@@ -1,0 +1,24 @@
+{
+  "id": "Laio/common/CSVParser",
+  "title": "CSVParser",
+  "description": "",
+  "source": "@site/docs/Laio/common/CSVParser.md",
+  "sourceDirName": "Laio/common",
+  "slug": "/Laio/common/CSVParser",
+  "permalink": "/docs/Laio/common/CSVParser",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Laio/common/CSVParser.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Readonly Attribute",
+    "permalink": "/docs/Laio/common/Attributes/ReadOnlyAttribute"
+  },
+  "next": {
+    "title": "Extensions",
+    "permalink": "/docs/Laio/common/Extensions/"
+  }
+}

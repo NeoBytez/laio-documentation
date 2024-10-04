@@ -1,0 +1,24 @@
+{
+  "id": "LaioEditor/Toast",
+  "title": "Toast",
+  "description": "",
+  "source": "@site/docs/LaioEditor/Toast.md",
+  "sourceDirName": "LaioEditor",
+  "slug": "/LaioEditor/Toast",
+  "permalink": "/docs/LaioEditor/Toast",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/LaioEditor/Toast.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TemplateEditor",
+    "permalink": "/docs/LaioEditor/TemplateEditor/"
+  },
+  "next": {
+    "title": "My Doc Title",
+    "permalink": "/docs/MDFeatures"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "LaioEditor/TemplateEditor/TemplateEditor",
+  "title": "Template Editor",
+  "description": "Overview",
+  "source": "@site/docs/LaioEditor/TemplateEditor/TemplateEditor.mdx",
+  "sourceDirName": "LaioEditor/TemplateEditor",
+  "slug": "/LaioEditor/TemplateEditor/",
+  "permalink": "/LaioEditor/TemplateEditor/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Template Editor",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Toast Content",
+    "permalink": "/LaioEditor/Common/ToastContent"
+  },
+  "next": {
+    "title": "BulletSolver",
+    "permalink": "/Samples/BulletSolver"
+  }
+}

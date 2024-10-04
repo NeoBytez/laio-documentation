@@ -1,0 +1,23 @@
+{
+  "id": "Laio/common/Saving/SceneSaving",
+  "title": "SceneSaving",
+  "description": "",
+  "source": "@site/docs/Laio/common/Saving/SceneSaving.md",
+  "sourceDirName": "Laio/common/Saving",
+  "slug": "/Laio/common/Saving/SceneSaving",
+  "permalink": "/Laio/common/Saving/SceneSaving",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Save Me",
+    "permalink": "/Laio/common/Saving/SaveMe"
+  },
+  "next": {
+    "title": "Extensions",
+    "permalink": "/Laio/common/Static/Extensions"
+  }
+}
