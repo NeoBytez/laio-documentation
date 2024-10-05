@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/common/Library/Stat.md",
   "sourceDirName": "Laio/common/Library",
   "slug": "/Laio/common/Library/Stat",
-  "permalink": "/Laio/common/Library/Stat",
+  "permalink": "/laio-documentation/Laio/common/Library/Stat",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Stamina",
-    "permalink": "/Laio/common/Library/Stamina"
+    "permalink": "/laio-documentation/Laio/common/Library/Stamina"
   },
   "next": {
     "title": "Notify",
-    "permalink": "/Laio/common/Library/Weight"
+    "permalink": "/laio-documentation/Laio/common/Library/Weight"
   }
 }

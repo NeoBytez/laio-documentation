@@ -8,7 +8,7 @@ export default {
   "tagline": "Logans all in one Unity package documentation",
   "favicon": "img/LaioIcon.ico",
   "url": "https://razorrules.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/laio-documentation/",
   "organizationName": "razorrules",
   "projectName": "laio-documentation",
   "deploymentBranch": "main",

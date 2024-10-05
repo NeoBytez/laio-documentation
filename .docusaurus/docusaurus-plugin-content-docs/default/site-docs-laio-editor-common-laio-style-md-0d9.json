@@ -5,7 +5,7 @@
   "source": "@site/docs/LaioEditor/Common/LaioStyle.md",
   "sourceDirName": "LaioEditor/Common",
   "slug": "/LaioEditor/Common/LaioStyle",
-  "permalink": "/LaioEditor/Common/LaioStyle",
+  "permalink": "/laio-documentation/LaioEditor/Common/LaioStyle",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ImageScroller",
-    "permalink": "/Laio/common/UI/ImageScroller"
+    "permalink": "/laio-documentation/Laio/common/UI/ImageScroller"
   },
   "next": {
     "title": "Toast",
-    "permalink": "/LaioEditor/Common/Toast"
+    "permalink": "/laio-documentation/LaioEditor/Common/Toast"
   }
 }

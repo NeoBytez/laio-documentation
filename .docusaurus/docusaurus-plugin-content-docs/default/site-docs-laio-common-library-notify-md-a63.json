@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/common/Library/Notify.md",
   "sourceDirName": "Laio/common/Library",
   "slug": "/Laio/common/Library/Notify",
-  "permalink": "/Laio/common/Library/Notify",
+  "permalink": "/laio-documentation/Laio/common/Library/Notify",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "EArray",
-    "permalink": "/Laio/common/Library/EArray"
+    "permalink": "/laio-documentation/Laio/common/Library/EArray"
   },
   "next": {
     "title": "Object Pool",
-    "permalink": "/Laio/common/Library/ObjectPool"
+    "permalink": "/laio-documentation/Laio/common/Library/ObjectPool"
   }
 }

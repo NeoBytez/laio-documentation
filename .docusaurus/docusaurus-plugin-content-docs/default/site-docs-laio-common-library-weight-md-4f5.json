@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/common/Library/Weight.md",
   "sourceDirName": "Laio/common/Library",
   "slug": "/Laio/common/Library/Weight",
-  "permalink": "/Laio/common/Library/Weight",
+  "permalink": "/laio-documentation/Laio/common/Library/Weight",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Stat",
-    "permalink": "/Laio/common/Library/Stat"
+    "permalink": "/laio-documentation/Laio/common/Library/Stat"
   },
   "next": {
     "title": "Saving",
-    "permalink": "/Laio/common/Saving/"
+    "permalink": "/laio-documentation/Laio/common/Saving/"
   }
 }

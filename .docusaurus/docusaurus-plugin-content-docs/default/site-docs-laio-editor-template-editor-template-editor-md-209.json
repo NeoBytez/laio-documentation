@@ -5,7 +5,7 @@
   "source": "@site/docs/LaioEditor/TemplateEditor/TemplateEditor.md",
   "sourceDirName": "LaioEditor/TemplateEditor",
   "slug": "/LaioEditor/TemplateEditor/",
-  "permalink": "/LaioEditor/TemplateEditor/",
+  "permalink": "/laio-documentation/LaioEditor/TemplateEditor/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Toast Content",
-    "permalink": "/LaioEditor/Common/ToastContent"
+    "permalink": "/laio-documentation/LaioEditor/Common/ToastContent"
   },
   "next": {
     "title": "Bullet Solver",
-    "permalink": "/Samples/BulletSolver"
+    "permalink": "/laio-documentation/Samples/BulletSolver"
   }
 }

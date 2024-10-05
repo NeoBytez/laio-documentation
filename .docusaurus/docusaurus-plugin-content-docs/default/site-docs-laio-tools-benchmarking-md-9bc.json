@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/Tools/Benchmarking.md",
   "sourceDirName": "Laio/Tools",
   "slug": "/Laio/Tools/Benchmarking",
-  "permalink": "/Laio/Tools/Benchmarking",
+  "permalink": "/laio-documentation/Laio/Tools/Benchmarking",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/QuickStart"
+    "permalink": "/laio-documentation/QuickStart"
   },
   "next": {
     "title": "CSVParser",
-    "permalink": "/Laio/Tools/CSVParser"
+    "permalink": "/laio-documentation/Laio/Tools/CSVParser"
   }
 }

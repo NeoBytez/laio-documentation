@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/common/Static/LaioMath.md",
   "sourceDirName": "Laio/common/Static",
   "slug": "/Laio/common/Static/LaioMath",
-  "permalink": "/Laio/common/Static/LaioMath",
+  "permalink": "/laio-documentation/Laio/common/Static/LaioMath",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Helper",
-    "permalink": "/Laio/common/Static/Helper"
+    "permalink": "/laio-documentation/Laio/common/Static/Helper"
   },
   "next": {
     "title": "ImageScroller",
-    "permalink": "/Laio/common/UI/ImageScroller"
+    "permalink": "/laio-documentation/Laio/common/UI/ImageScroller"
   }
 }

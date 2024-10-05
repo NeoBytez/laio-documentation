@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/common/Attributes/ConditionalHideAttribute.md",
   "sourceDirName": "Laio/common/Attributes",
   "slug": "/Laio/common/Attributes/ConditionalHideAttribute",
-  "permalink": "/Laio/common/Attributes/ConditionalHideAttribute",
+  "permalink": "/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ImageEditing",
-    "permalink": "/Laio/Tools/ImageEditing"
+    "permalink": "/laio-documentation/Laio/Tools/ImageEditing"
   },
   "next": {
     "title": "Readonly Attribute",
-    "permalink": "/Laio/common/Attributes/ReadOnlyAttribute"
+    "permalink": "/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute"
   }
 }

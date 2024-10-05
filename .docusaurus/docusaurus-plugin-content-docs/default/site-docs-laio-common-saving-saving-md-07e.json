@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/common/Saving/Saving.md",
   "sourceDirName": "Laio/common/Saving",
   "slug": "/Laio/common/Saving/",
-  "permalink": "/Laio/common/Saving/",
+  "permalink": "/laio-documentation/Laio/common/Saving/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Notify",
-    "permalink": "/Laio/common/Library/Weight"
+    "permalink": "/laio-documentation/Laio/common/Library/Weight"
   },
   "next": {
     "title": "Save Me",
-    "permalink": "/Laio/common/Saving/SaveMe"
+    "permalink": "/laio-documentation/Laio/common/Saving/SaveMe"
   }
 }

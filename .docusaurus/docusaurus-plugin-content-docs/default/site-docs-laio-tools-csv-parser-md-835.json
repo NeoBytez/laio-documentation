@@ -5,7 +5,7 @@
   "source": "@site/docs/Laio/Tools/CSVParser.md",
   "sourceDirName": "Laio/Tools",
   "slug": "/Laio/Tools/CSVParser",
-  "permalink": "/Laio/Tools/CSVParser",
+  "permalink": "/laio-documentation/Laio/Tools/CSVParser",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Benchmarking",
-    "permalink": "/Laio/Tools/Benchmarking"
+    "permalink": "/laio-documentation/Laio/Tools/Benchmarking"
   },
   "next": {
     "title": "ImageEditing",
-    "permalink": "/Laio/Tools/ImageEditing"
+    "permalink": "/laio-documentation/Laio/Tools/ImageEditing"
   }
 }

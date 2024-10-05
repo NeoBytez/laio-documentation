@@ -3,233 +3,198 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/laio-documentation/-index',
+    component: ComponentCreator('/laio-documentation/-index', '7b0'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/laio-documentation/markdown-page',
+    component: ComponentCreator('/laio-documentation/markdown-page', '880'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
-    path: '/-index',
-    component: ComponentCreator('/-index', '4b7'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '323'),
+    path: '/laio-documentation/',
+    component: ComponentCreator('/laio-documentation/', '7e9'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', 'b8a'),
+        path: '/laio-documentation/',
+        component: ComponentCreator('/laio-documentation/', '3b1'),
         routes: [
           {
-            path: '/',
-            component: ComponentCreator('/', '4e9'),
+            path: '/laio-documentation/',
+            component: ComponentCreator('/laio-documentation/', 'bfc'),
             routes: [
               {
-                path: '/Laio/common/Attributes/ConditionalHideAttribute',
-                component: ComponentCreator('/Laio/common/Attributes/ConditionalHideAttribute', 'c2c'),
+                path: '/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute',
+                component: ComponentCreator('/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute', '77e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Attributes/ReadOnlyAttribute',
-                component: ComponentCreator('/Laio/common/Attributes/ReadOnlyAttribute', 'd44'),
+                path: '/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute',
+                component: ComponentCreator('/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute', 'a1b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/EArray',
-                component: ComponentCreator('/Laio/common/Library/EArray', '870'),
+                path: '/laio-documentation/Laio/common/Library/EArray',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/EArray', '7d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/Notify',
-                component: ComponentCreator('/Laio/common/Library/Notify', '356'),
+                path: '/laio-documentation/Laio/common/Library/Notify',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/Notify', 'e43'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/ObjectPool',
-                component: ComponentCreator('/Laio/common/Library/ObjectPool', '9a1'),
+                path: '/laio-documentation/Laio/common/Library/ObjectPool',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/ObjectPool', '575'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/SceneLoading',
-                component: ComponentCreator('/Laio/common/Library/SceneLoading', '3bc'),
+                path: '/laio-documentation/Laio/common/Library/SceneLoading',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/SceneLoading', '44e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/Selector',
-                component: ComponentCreator('/Laio/common/Library/Selector', '617'),
+                path: '/laio-documentation/Laio/common/Library/Selector',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/Selector', '482'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/Stamina',
-                component: ComponentCreator('/Laio/common/Library/Stamina', '702'),
+                path: '/laio-documentation/Laio/common/Library/Stamina',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/Stamina', '7be'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/Stat',
-                component: ComponentCreator('/Laio/common/Library/Stat', '65d'),
+                path: '/laio-documentation/Laio/common/Library/Stat',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/Stat', '9c4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Library/Weight',
-                component: ComponentCreator('/Laio/common/Library/Weight', '6a6'),
+                path: '/laio-documentation/Laio/common/Library/Weight',
+                component: ComponentCreator('/laio-documentation/Laio/common/Library/Weight', 'ebe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Saving',
-                component: ComponentCreator('/Laio/common/Saving', 'c5f'),
+                path: '/laio-documentation/Laio/common/Saving',
+                component: ComponentCreator('/laio-documentation/Laio/common/Saving', '906'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Saving/SaveMe',
-                component: ComponentCreator('/Laio/common/Saving/SaveMe', '02a'),
+                path: '/laio-documentation/Laio/common/Saving/SaveMe',
+                component: ComponentCreator('/laio-documentation/Laio/common/Saving/SaveMe', '52a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Saving/SceneSaving',
-                component: ComponentCreator('/Laio/common/Saving/SceneSaving', '293'),
+                path: '/laio-documentation/Laio/common/Saving/SceneSaving',
+                component: ComponentCreator('/laio-documentation/Laio/common/Saving/SceneSaving', '2c6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Static/Extensions',
-                component: ComponentCreator('/Laio/common/Static/Extensions', '948'),
+                path: '/laio-documentation/Laio/common/Static/Extensions',
+                component: ComponentCreator('/laio-documentation/Laio/common/Static/Extensions', '9ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Static/GizmoDrawer',
-                component: ComponentCreator('/Laio/common/Static/GizmoDrawer', 'af7'),
+                path: '/laio-documentation/Laio/common/Static/GizmoDrawer',
+                component: ComponentCreator('/laio-documentation/Laio/common/Static/GizmoDrawer', '2e9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Static/Helper',
-                component: ComponentCreator('/Laio/common/Static/Helper', 'b04'),
+                path: '/laio-documentation/Laio/common/Static/Helper',
+                component: ComponentCreator('/laio-documentation/Laio/common/Static/Helper', '373'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/Static/LaioMath',
-                component: ComponentCreator('/Laio/common/Static/LaioMath', '780'),
+                path: '/laio-documentation/Laio/common/Static/LaioMath',
+                component: ComponentCreator('/laio-documentation/Laio/common/Static/LaioMath', 'be0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/common/UI/ImageScroller',
-                component: ComponentCreator('/Laio/common/UI/ImageScroller', '07a'),
+                path: '/laio-documentation/Laio/common/UI/ImageScroller',
+                component: ComponentCreator('/laio-documentation/Laio/common/UI/ImageScroller', 'bdf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/Tools/Benchmarking',
-                component: ComponentCreator('/Laio/Tools/Benchmarking', '25a'),
+                path: '/laio-documentation/Laio/Tools/Benchmarking',
+                component: ComponentCreator('/laio-documentation/Laio/Tools/Benchmarking', '87c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/Tools/CSVParser',
-                component: ComponentCreator('/Laio/Tools/CSVParser', 'ba0'),
+                path: '/laio-documentation/Laio/Tools/CSVParser',
+                component: ComponentCreator('/laio-documentation/Laio/Tools/CSVParser', '3da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Laio/Tools/ImageEditing',
-                component: ComponentCreator('/Laio/Tools/ImageEditing', '071'),
+                path: '/laio-documentation/Laio/Tools/ImageEditing',
+                component: ComponentCreator('/laio-documentation/Laio/Tools/ImageEditing', 'f6a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/LaioEditor/Common/LaioStyle',
-                component: ComponentCreator('/LaioEditor/Common/LaioStyle', 'a94'),
+                path: '/laio-documentation/LaioEditor/Common/LaioStyle',
+                component: ComponentCreator('/laio-documentation/LaioEditor/Common/LaioStyle', '6b5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/LaioEditor/Common/Toast',
-                component: ComponentCreator('/LaioEditor/Common/Toast', '1ad'),
+                path: '/laio-documentation/LaioEditor/Common/Toast',
+                component: ComponentCreator('/laio-documentation/LaioEditor/Common/Toast', '99d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/LaioEditor/Common/ToastContent',
-                component: ComponentCreator('/LaioEditor/Common/ToastContent', '1f8'),
+                path: '/laio-documentation/LaioEditor/Common/ToastContent',
+                component: ComponentCreator('/laio-documentation/LaioEditor/Common/ToastContent', 'a7d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/LaioEditor/TemplateEditor',
-                component: ComponentCreator('/LaioEditor/TemplateEditor', 'ab1'),
+                path: '/laio-documentation/LaioEditor/TemplateEditor',
+                component: ComponentCreator('/laio-documentation/LaioEditor/TemplateEditor', 'eda'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/QuickStart',
-                component: ComponentCreator('/QuickStart', 'a7f'),
+                path: '/laio-documentation/QuickStart',
+                component: ComponentCreator('/laio-documentation/QuickStart', 'c1a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Samples/BulletSolver',
-                component: ComponentCreator('/Samples/BulletSolver', '0b9'),
+                path: '/laio-documentation/Samples/BulletSolver',
+                component: ComponentCreator('/laio-documentation/Samples/BulletSolver', 'a74'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Samples/GPUInstancing',
-                component: ComponentCreator('/Samples/GPUInstancing', '668'),
+                path: '/laio-documentation/Samples/GPUInstancing',
+                component: ComponentCreator('/laio-documentation/Samples/GPUInstancing', '8e1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/',
-                component: ComponentCreator('/', '1bf'),
+                path: '/laio-documentation/',
+                component: ComponentCreator('/laio-documentation/', '407'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -5,7 +5,7 @@
   "source": "@site/docs/LaioEditor/Common/ToastContent.md",
   "sourceDirName": "LaioEditor/Common",
   "slug": "/LaioEditor/Common/ToastContent",
-  "permalink": "/LaioEditor/Common/ToastContent",
+  "permalink": "/laio-documentation/LaioEditor/Common/ToastContent",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -14,10 +14,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Toast",
-    "permalink": "/LaioEditor/Common/Toast"
+    "permalink": "/laio-documentation/LaioEditor/Common/Toast"
   },
   "next": {
     "title": "Template Editor",
-    "permalink": "/LaioEditor/TemplateEditor/"
+    "permalink": "/laio-documentation/LaioEditor/TemplateEditor/"
   }
 }

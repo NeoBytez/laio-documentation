@@ -1,158 +1,158 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/laio-documentation/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/laio-documentation/",
           "mainDocId": "1Overview",
           "docs": [
             {
               "id": "1Overview",
-              "path": "/",
+              "path": "/laio-documentation/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "2QuickStart",
-              "path": "/QuickStart",
+              "path": "/laio-documentation/QuickStart",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Attributes/ConditionalHideAttribute",
-              "path": "/Laio/common/Attributes/ConditionalHideAttribute",
+              "path": "/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Attributes/ReadOnlyAttribute",
-              "path": "/Laio/common/Attributes/ReadOnlyAttribute",
+              "path": "/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/EArray",
-              "path": "/Laio/common/Library/EArray",
+              "path": "/laio-documentation/Laio/common/Library/EArray",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/Notify",
-              "path": "/Laio/common/Library/Notify",
+              "path": "/laio-documentation/Laio/common/Library/Notify",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/ObjectPool",
-              "path": "/Laio/common/Library/ObjectPool",
+              "path": "/laio-documentation/Laio/common/Library/ObjectPool",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/SceneLoading",
-              "path": "/Laio/common/Library/SceneLoading",
+              "path": "/laio-documentation/Laio/common/Library/SceneLoading",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/Selector",
-              "path": "/Laio/common/Library/Selector",
+              "path": "/laio-documentation/Laio/common/Library/Selector",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/Stamina",
-              "path": "/Laio/common/Library/Stamina",
+              "path": "/laio-documentation/Laio/common/Library/Stamina",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/Stat",
-              "path": "/Laio/common/Library/Stat",
+              "path": "/laio-documentation/Laio/common/Library/Stat",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Library/Weight",
-              "path": "/Laio/common/Library/Weight",
+              "path": "/laio-documentation/Laio/common/Library/Weight",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Saving/SaveMe",
-              "path": "/Laio/common/Saving/SaveMe",
+              "path": "/laio-documentation/Laio/common/Saving/SaveMe",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Saving/Saving",
-              "path": "/Laio/common/Saving/",
+              "path": "/laio-documentation/Laio/common/Saving/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Saving/SceneSaving",
-              "path": "/Laio/common/Saving/SceneSaving",
+              "path": "/laio-documentation/Laio/common/Saving/SceneSaving",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Static/Extensions",
-              "path": "/Laio/common/Static/Extensions",
+              "path": "/laio-documentation/Laio/common/Static/Extensions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Static/GizmoDrawer",
-              "path": "/Laio/common/Static/GizmoDrawer",
+              "path": "/laio-documentation/Laio/common/Static/GizmoDrawer",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Static/Helper",
-              "path": "/Laio/common/Static/Helper",
+              "path": "/laio-documentation/Laio/common/Static/Helper",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/Static/LaioMath",
-              "path": "/Laio/common/Static/LaioMath",
+              "path": "/laio-documentation/Laio/common/Static/LaioMath",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/common/UI/ImageScroller",
-              "path": "/Laio/common/UI/ImageScroller",
+              "path": "/laio-documentation/Laio/common/UI/ImageScroller",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/Tools/Benchmarking",
-              "path": "/Laio/Tools/Benchmarking",
+              "path": "/laio-documentation/Laio/Tools/Benchmarking",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/Tools/CSVParser",
-              "path": "/Laio/Tools/CSVParser",
+              "path": "/laio-documentation/Laio/Tools/CSVParser",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Laio/Tools/ImageEditing",
-              "path": "/Laio/Tools/ImageEditing",
+              "path": "/laio-documentation/Laio/Tools/ImageEditing",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "LaioEditor/Common/LaioStyle",
-              "path": "/LaioEditor/Common/LaioStyle",
+              "path": "/laio-documentation/LaioEditor/Common/LaioStyle",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "LaioEditor/Common/Toast",
-              "path": "/LaioEditor/Common/Toast",
+              "path": "/laio-documentation/LaioEditor/Common/Toast",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "LaioEditor/Common/ToastContent",
-              "path": "/LaioEditor/Common/ToastContent",
+              "path": "/laio-documentation/LaioEditor/Common/ToastContent",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "LaioEditor/TemplateEditor/TemplateEditor",
-              "path": "/LaioEditor/TemplateEditor/",
+              "path": "/laio-documentation/LaioEditor/TemplateEditor/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Samples/BulletSolver",
-              "path": "/Samples/BulletSolver",
+              "path": "/laio-documentation/Samples/BulletSolver",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Samples/GPUInstancing",
-              "path": "/Samples/GPUInstancing",
+              "path": "/laio-documentation/Samples/GPUInstancing",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -160,7 +160,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/laio-documentation/",
                 "label": "1Overview"
               }
             }
