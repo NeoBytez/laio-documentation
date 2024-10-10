@@ -1,7 +1,7 @@
 {
   "id": "Laio/Tools/ImageEditing",
-  "title": "ImageEditing",
-  "description": "",
+  "title": "Image Editing",
+  "description": "Methods",
   "source": "@site/docs/Laio/Tools/ImageEditing.md",
   "sourceDirName": "Laio/Tools",
   "slug": "/Laio/Tools/ImageEditing",
@@ -17,7 +17,7 @@
     "permalink": "/laio-documentation/Laio/Tools/CSVParser"
   },
   "next": {
-    "title": "Conditional Hide Attribute",
-    "permalink": "/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute"
+    "title": "Readonly Attribute",
+    "permalink": "/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute"
   }
 }

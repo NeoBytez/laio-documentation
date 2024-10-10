@@ -166,7 +166,7 @@ const config = {
     },
     // Add a script that runs your custom PrismJS hook
     {
-      src: '/prism-csharp-custom.js', // You'll create this script next
+      src: '/laio-documentation/prism-csharp-custom.js', // You'll create this script next
       defer: true, // Ensure the script is deferred until PrismJS is loaded
     }
   ],

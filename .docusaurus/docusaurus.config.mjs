@@ -204,7 +204,7 @@ export default {
       "defer": true
     },
     {
-      "src": "/prism-csharp-custom.js",
+      "src": "/laio-documentation/prism-csharp-custom.js",
       "defer": true
     }
   ],

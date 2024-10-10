@@ -21,11 +21,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Laio/common/Attributes/ConditionalHideAttribute",
-              "path": "/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Laio/common/Attributes/ReadOnlyAttribute",
               "path": "/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute",
               "sidebar": "tutorialSidebar"
@@ -66,23 +61,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Laio/common/Library/Weight",
-              "path": "/laio-documentation/Laio/common/Library/Weight",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Laio/common/Saving/SaveMe",
-              "path": "/laio-documentation/Laio/common/Saving/SaveMe",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Laio/common/Saving/Saving",
-              "path": "/laio-documentation/Laio/common/Saving/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Laio/common/Saving/SceneSaving",
-              "path": "/laio-documentation/Laio/common/Saving/SceneSaving",
+              "id": "Laio/common/Saving/1Saving",
+              "path": "/laio-documentation/Saving",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -103,11 +83,6 @@
             {
               "id": "Laio/common/Static/LaioMath",
               "path": "/laio-documentation/Laio/common/Static/LaioMath",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Laio/common/UI/ImageScroller",
-              "path": "/laio-documentation/Laio/common/UI/ImageScroller",
               "sidebar": "tutorialSidebar"
             },
             {

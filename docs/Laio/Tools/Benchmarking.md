@@ -40,20 +40,18 @@ public static void RunAction(Action action, int iterations, string name, string 
 ## Example
 
 ```csharp
+public void Start() => Benchmarking.RunAction(MathHeavyFunction, 100000, "MathHeavyFunction"); 
 
-public void Start()
+public void MathHeavyFunction()
 {
-    Benchmarking.RunAction(MathHeavyFunction, 100000, "MathHeavyFunction");
-}
-
-public float MathHeavyFunction()
-{
-    int j;
-
-    for(int i = 0; i < 100000000; i ++)
+    float j;
+    for (int i = 0; i < 100000000; i++)
         j = Mathf.Pow(Mathf.Sqrt(i), 2);
-
-    return j;
 }
 
+```
+Example output
+
+```
+[Benchmark] (Iterations: 1)  MathHeavyFunction finished. Took 70ms (0.070s) to run.
 ```

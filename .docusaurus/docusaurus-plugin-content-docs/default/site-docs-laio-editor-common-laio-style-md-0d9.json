@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ImageScroller",
-    "permalink": "/laio-documentation/Laio/common/UI/ImageScroller"
+    "title": "Laio Math",
+    "permalink": "/laio-documentation/Laio/common/Static/LaioMath"
   },
   "next": {
     "title": "Toast",

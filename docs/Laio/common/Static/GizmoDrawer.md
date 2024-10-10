@@ -2,7 +2,7 @@
 
 ## Overview
 
-Provides additional methods for drawing gizmos
+Provides additional methods for drawing gizmos. All methods must be called from `OnGizmos()`
 
 ## Static Methods
 

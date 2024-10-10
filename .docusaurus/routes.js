@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/laio-documentation/__docusaurus/debug',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug', '2c8'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/config',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/config', '3ab'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/content',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/content', 'f81'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/globalData',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/globalData', '43a'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/metadata',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/metadata', '7f8'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/registry',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/registry', '96e'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/routes',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/routes', '986'),
+    exact: true
+  },
+  {
     path: '/laio-documentation/-index',
     component: ComponentCreator('/laio-documentation/-index', '7b0'),
     exact: true
@@ -14,22 +49,16 @@ export default [
   },
   {
     path: '/laio-documentation/',
-    component: ComponentCreator('/laio-documentation/', '7e9'),
+    component: ComponentCreator('/laio-documentation/', 'f9a'),
     routes: [
       {
         path: '/laio-documentation/',
-        component: ComponentCreator('/laio-documentation/', '3b1'),
+        component: ComponentCreator('/laio-documentation/', '643'),
         routes: [
           {
             path: '/laio-documentation/',
-            component: ComponentCreator('/laio-documentation/', 'bfc'),
+            component: ComponentCreator('/laio-documentation/', '9df'),
             routes: [
-              {
-                path: '/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute',
-                component: ComponentCreator('/laio-documentation/Laio/common/Attributes/ConditionalHideAttribute', '77e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
               {
                 path: '/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute',
                 component: ComponentCreator('/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute', 'a1b'),
@@ -79,30 +108,6 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/laio-documentation/Laio/common/Library/Weight',
-                component: ComponentCreator('/laio-documentation/Laio/common/Library/Weight', 'ebe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/laio-documentation/Laio/common/Saving',
-                component: ComponentCreator('/laio-documentation/Laio/common/Saving', '906'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/laio-documentation/Laio/common/Saving/SaveMe',
-                component: ComponentCreator('/laio-documentation/Laio/common/Saving/SaveMe', '52a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/laio-documentation/Laio/common/Saving/SceneSaving',
-                component: ComponentCreator('/laio-documentation/Laio/common/Saving/SceneSaving', '2c6'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/laio-documentation/Laio/common/Static/Extensions',
                 component: ComponentCreator('/laio-documentation/Laio/common/Static/Extensions', '9ad'),
                 exact: true,
@@ -123,12 +128,6 @@ export default [
               {
                 path: '/laio-documentation/Laio/common/Static/LaioMath',
                 component: ComponentCreator('/laio-documentation/Laio/common/Static/LaioMath', 'be0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/laio-documentation/Laio/common/UI/ImageScroller',
-                component: ComponentCreator('/laio-documentation/Laio/common/UI/ImageScroller', 'bdf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -189,6 +188,12 @@ export default [
               {
                 path: '/laio-documentation/Samples/GPUInstancing',
                 component: ComponentCreator('/laio-documentation/Samples/GPUInstancing', '8e1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/laio-documentation/Saving',
+                component: ComponentCreator('/laio-documentation/Saving', '8e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

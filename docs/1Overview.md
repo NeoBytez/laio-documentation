@@ -18,25 +18,22 @@ All demos will be in the unity universal render pipeline.
 
 ### [Bullet Solver](/Samples/BulletSolver)
 
-A powerful solution to managing a bullet system. Incredibly easy to use and is already setup to work with surfaces, which can cause your bullet to be stopped, penetrate through, tumble or just deflect!
-All while being generic enough to allow total freedom, can also easily make it multiplayer and expand upon it.
+The Bullet Solver system is designed to manage bullet behavior in a flexible and scalable way. It handles bullet velocity, collision detection, and interactions with surfaces, offering features like deflection, tumbling, and damage application. The core component, BulletSolver, tracks and processes all active bullets, updating their positions and checking for collisions each frame. Custom solvers can be created by extending the base class, while surfaces add complexity by altering bullet behavior based on defined parameters. The system supports easy customization and expansion, making it suitable for both basic and advanced projectile mechanics.
 
 ### [GPUInstancing](/)
 
-GPU instancing base classes to drastically speed up rendering many objects. You can read about GPU instancing https://docs.unity3d.com/Manual/GPUInstancing.html
+The GPU Instancing system focuses on efficiently rendering large numbers of objects in Unity by utilizing the GPU. Using the Unity Jobs system and Burst Compiler to modify the matrix data related to instances for incredible speed. 
 
-Proving you with these useful base classes:
+You can read about GPU instancing https://docs.unity3d.com/Manual/GPUInstancing.html
 
-#### - DynamicInstanceManager
-#### - LODInstanceManager
-#### - MultiInstanceManager
-#### - PoolInstanceManager
-#### - SingleInstanceManager
+Provides useful base classes
+
+- DynamicInstanceManager
+- LODInstanceManager
+- MultiInstanceManager
+- PoolInstanceManager
+- SingleInstanceManager
 
 ### [Ability system](/)
-
-Coming soon...
-
-### [Idle Game template](/)
 
 Coming soon...

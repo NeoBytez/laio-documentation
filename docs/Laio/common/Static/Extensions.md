@@ -1,11 +1,5 @@
 # Extensions
 
-## Overview
-
-Provides 
-
-## Static Methods
-
 ### Vector3
 
 ``` cs

@@ -1,7 +1,7 @@
 {
   "id": "Laio/common/Static/Extensions",
   "title": "Extensions",
-  "description": "Overview",
+  "description": "Vector3",
   "source": "@site/docs/Laio/common/Static/Extensions.md",
   "sourceDirName": "Laio/common/Static",
   "slug": "/Laio/common/Static/Extensions",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SceneSaving",
-    "permalink": "/laio-documentation/Laio/common/Saving/SceneSaving"
+    "title": "Saving",
+    "permalink": "/laio-documentation/Saving"
   },
   "next": {
     "title": "GizmoDrawer",

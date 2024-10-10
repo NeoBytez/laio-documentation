@@ -7,76 +7,86 @@ document.addEventListener('DOMContentLoaded', function () {
     return;
   }
 
+  const classTypePattern = {
+    pattern: /\b(Selector|Benchmarking|EArray|Weights|Math|Mathf|Matrix4x4|Graphics|Transform|GameObject|CustomEnum|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
+    alias: 'class-name'
+  };
+
+  const structTypePattern = {
+    pattern: /\b(Vector3|Quaternion|NativeArray|float3)\b/,
+    alias: 'class-name'
+  };
+
+  const enumTypePattern = {
+      pattern: /\b(CharacterType|PrimitiveType|KeyCode|ShadowCastingMode)\b/,
+      alias: 'class-name'
+  };
+
+  const genericTypePattern = {
+    pattern: /\b(T|T|TBullet|TSurface)\b/,
+    alias: 'class-name'
+  };
+
   //======================================== Struct ========================================//
 
-    Prism.languages.insertBefore('csharp', 'class-name', {
-      'unity-type-struct': {
-        // Add more Unity types if necessary
-        pattern: /\b(Vector3|Quaternion)\b/,
-        alias: 'class-name'
-      }
-    });
+  Prism.languages.insertBefore('csharp', 'class-name', {
+    'unity-type-struct': structTypePattern
+  });
 
-    //======================================== Class ========================================//
+  //======================================== Class ========================================//
 
-    const unityTypesPattern = {
-      pattern: /\b(EArray|Weights|Graphics|NativeArray|Transform|GameObject|CustomEnum|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
-      alias: 'class-name'
-    };
+  // Insert before both 'class-name' and 'constructor-invocation' 
+  Prism.languages.insertBefore('csharp', 'class-name', {
+    'unity-type-class': classTypePattern
+  });
 
-    // Insert before both 'class-name' and 'constructor-invocation' 
-    Prism.languages.insertBefore('csharp', 'class-name', {
-      'unity-type-class': unityTypesPattern
-    });
+  // Insert before both 'class-name' and 'constructor-invocation' 
+  Prism.languages.insertBefore('csharp', 'attribute', {
+    'unity-type-class': classTypePattern
+  });
 
-    // Insert before both 'class-name' and 'constructor-invocation' 
-    Prism.languages.insertBefore('csharp', 'attribute', {
-      'unity-type-class': unityTypesPattern
-    });
+  // Re-apply the same rule for 'constructor-invocation'
+  Prism.languages.insertBefore('csharp', 'constructor-invocation', {
+    'unity-type-class': classTypePattern
+  });
 
-    // Re-apply the same rule for 'constructor-invocation'
-    Prism.languages.insertBefore('csharp', 'constructor-invocation', {
-      'unity-type-class': unityTypesPattern
-    });
+  // Re-apply the same rule for 'constructor-invocation'
+  Prism.languages.insertBefore('csharp', 'plain', {
+    'unity-type-class': classTypePattern
+  });
 
-    //======================================== Enum  ========================================//
+  // Re-apply the same rule for 'constructor-invocation'
+  Prism.languages.insertBefore('csharp', 'return-type', {
+    'unity-type-class': classTypePattern
+  });
 
-    Prism.languages.insertBefore('csharp', 'class-name', {
-      'unity-type-enum': {
-        // Add more Unity types if necessary
-        pattern: /\b(PrimitiveType)\b/,
-        alias: 'class-name'
-      }
-    });
+  //======================================== Enum  ========================================//
 
-    //======================================== Generic ========================================//
+  Prism.languages.insertBefore('csharp', 'class-name', {
+    'unity-type-enum': enumTypePattern
+  });
+  Prism.languages.insertBefore('csharp', 'return-type', {
+    'unity-type-enum': enumTypePattern
+  });
 
-    Prism.languages.insertBefore('csharp', 'plain', {
-      'generic': {
-        // Add more Unity types if necessary
-        pattern: /\b(T|T)\b/,
-        alias: 'class-name'
-      }
-    });
+  //======================================== Generic ========================================//
 
-    Prism.languages.insertBefore('csharp', 'keyword', {
-      'generic': {
-        // Add more Unity types if necessary
-        pattern: /\b(T|T)\b/,
-        alias: 'class-name'
-      }
-    });
+  Prism.languages.insertBefore('csharp', 'plain', {
+    'generic': genericTypePattern
+  });
 
-    Prism.languages.insertBefore('csharp', 'class-name', {
-      'generic': {
-        // Add more Unity types if necessary
-        pattern: /\b(T|T)\b/,
-        alias: 'class-name'
-      }
-    });
+  Prism.languages.insertBefore('csharp', 'keyword', {
+    'generic': genericTypePattern
+  });
 
+  Prism.languages.insertBefore('csharp', 'return-type', {
+    'generic': genericTypePattern
+  });
 
+  Prism.languages.insertBefore('csharp', 'class-name', {
+    'generic': genericTypePattern
+  });
 
-    console.log("Added code insert");
+  console.log("Added code insert");
 
 });
