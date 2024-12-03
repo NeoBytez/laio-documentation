@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Quick Start",
-    "permalink": "/laio-documentation/QuickStart"
+    "title": "Installation",
+    "permalink": "/laio-documentation/Installation"
   }
 }

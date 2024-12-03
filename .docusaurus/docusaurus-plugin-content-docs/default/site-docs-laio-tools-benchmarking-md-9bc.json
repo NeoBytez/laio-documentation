@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Quick Start",
-    "permalink": "/laio-documentation/QuickStart"
+    "title": "Installation",
+    "permalink": "/laio-documentation/Installation"
   },
   "next": {
-    "title": "CSVParser",
+    "title": "Benchmarking",
     "permalink": "/laio-documentation/Laio/Tools/CSVParser"
   }
 }

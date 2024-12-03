@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   const classTypePattern = {
-    pattern: /\b(Selector|Benchmarking|EArray|Weights|Math|Mathf|Matrix4x4|Graphics|Transform|GameObject|CustomEnum|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
+    pattern: /\b(Selector|Benchmarking|EArray|Weights|Math|Mathf|Matrix4x4|Graphics|Transform|GameObject|Rigidbody|MonoBehaviour|SerializedField|ContextMenu|ReadOnly|ArgumentException|Enum|Debug|StatData|Stamina)\b/,
     alias: 'class-name'
   };
 
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   const enumTypePattern = {
-      pattern: /\b(CharacterType|PrimitiveType|KeyCode|ShadowCastingMode)\b/,
+      pattern: /\b(CharacterType|PrimitiveType|KeyCode|CustomEnum|ShadowCastingMode)\b/,
       alias: 'class-name'
   };
 

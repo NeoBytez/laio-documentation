@@ -49,16 +49,22 @@ export default [
   },
   {
     path: '/laio-documentation/',
-    component: ComponentCreator('/laio-documentation/', 'f9a'),
+    component: ComponentCreator('/laio-documentation/', '500'),
     routes: [
       {
         path: '/laio-documentation/',
-        component: ComponentCreator('/laio-documentation/', '643'),
+        component: ComponentCreator('/laio-documentation/', '439'),
         routes: [
           {
             path: '/laio-documentation/',
-            component: ComponentCreator('/laio-documentation/', '9df'),
+            component: ComponentCreator('/laio-documentation/', 'ec0'),
             routes: [
+              {
+                path: '/laio-documentation/Installation',
+                component: ComponentCreator('/laio-documentation/Installation', '627'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute',
                 component: ComponentCreator('/laio-documentation/Laio/common/Attributes/ReadOnlyAttribute', 'a1b'),
@@ -170,12 +176,6 @@ export default [
               {
                 path: '/laio-documentation/LaioEditor/TemplateEditor',
                 component: ComponentCreator('/laio-documentation/LaioEditor/TemplateEditor', 'eda'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/laio-documentation/QuickStart',
-                component: ComponentCreator('/laio-documentation/QuickStart', 'c1a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

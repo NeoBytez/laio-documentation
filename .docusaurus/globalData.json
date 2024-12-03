@@ -16,8 +16,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "2QuickStart",
-              "path": "/laio-documentation/QuickStart",
+              "id": "2Installation",
+              "path": "/laio-documentation/Installation",
               "sidebar": "tutorialSidebar"
             },
             {
