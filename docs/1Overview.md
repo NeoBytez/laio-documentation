@@ -8,7 +8,7 @@ description: Overview
 
 This unity package aims to provide commonly used tools, methods and systems to speed up the development process.
 
-This includes different `Types` such as [Stamina](/Laio/Common/Library/Stamina), [EArray](/Laio/Common/Library/EArray), [Stat](/Laio/Common/Library/Stat), [ObjectPool](/Laio/Common/Library/ObjectPool) along with different systems, such as [Saving](/Laio/Common/Saving/Saving), [SceneLoading](/Laio/Common/Libaray/SceneLoading), [Script Templates](/LaioEditor/TemplateEditor/), and more!
+This includes different `Types` such as [Stamina](Laio/common/Library/Stamina), [EArray](Laio/common/Library/EArray), [Stat](Laio/common/Library/Stat), [ObjectPool](Laio/common/Library/ObjectPool) along with different systems, such as [Saving](/Saving), [SceneLoading](Laio/common/Library/SceneLoading), [Script Templates](LaioEditor/TemplateEditor/), and more!
 
 If you want to learn how to install the package check out the [Installation](/Installation) guide!
 
