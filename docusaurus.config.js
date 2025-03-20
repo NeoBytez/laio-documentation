@@ -22,7 +22,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'razorrules', // Usually your GitHub org/user name.
+  organizationName: 'NeoBytez', // Usually your GitHub org/user name.
   projectName: 'laio-documentation', // Usually your repo name.
   deploymentBranch: 'main',
   trailingSlash: false,
@@ -73,7 +73,7 @@ const config = {
       navbar: {
         title: 'Laio Documentation',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/LaioIcon.png',
         },
         items: [
@@ -85,7 +85,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/razorrules/com.logan.laio',
+            href: 'https://github.com/neobytez/com.logan.laio',
             label: 'GitHub',
             position: 'right',
           },

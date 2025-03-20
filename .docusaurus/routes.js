@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/laio-documentation/__docusaurus/debug',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug', '2c8'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/config',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/config', '3ab'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/content',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/content', 'f81'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/globalData',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/globalData', '43a'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/metadata',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/metadata', '7f8'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/registry',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/registry', '96e'),
+    exact: true
+  },
+  {
+    path: '/laio-documentation/__docusaurus/debug/routes',
+    component: ComponentCreator('/laio-documentation/__docusaurus/debug/routes', '986'),
+    exact: true
+  },
+  {
     path: '/laio-documentation/-index',
     component: ComponentCreator('/laio-documentation/-index', '7b0'),
     exact: true

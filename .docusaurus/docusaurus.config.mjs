@@ -68,7 +68,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2024 Laio. Built with Docusaurus.",
+      "copyright": "Copyright © 2025 Laio. Built with Docusaurus.",
       "links": []
     },
     "prism": {
