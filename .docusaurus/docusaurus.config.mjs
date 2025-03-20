@@ -9,7 +9,7 @@ export default {
   "favicon": "img/LaioIcon.ico",
   "url": "https://razorrules.github.io",
   "baseUrl": "/laio-documentation/",
-  "organizationName": "razorrules",
+  "organizationName": "NeoBytez",
   "projectName": "laio-documentation",
   "deploymentBranch": "main",
   "trailingSlash": false,
@@ -43,7 +43,7 @@ export default {
     "navbar": {
       "title": "Laio Documentation",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Site Logo",
         "src": "img/LaioIcon.png"
       },
       "items": [
@@ -54,7 +54,7 @@ export default {
           "label": "API"
         },
         {
-          "href": "https://github.com/razorrules/com.logan.laio",
+          "href": "https://github.com/neobytez/com.logan.laio",
           "label": "GitHub",
           "position": "right"
         }

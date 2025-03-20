@@ -15,7 +15,7 @@ const config = {
 
   // https://docusaurus.io/docs/deployment#github-pages-overview
   // Set the production url of your site here
-  url: 'https://razorrules.github.io',
+  url: 'https://neobytez.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/laio-documentation/',
